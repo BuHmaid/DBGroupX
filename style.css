@@ -1,0 +1,317 @@
+body
+{
+	background: #616760;
+	color: #000000;
+	font: 9px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px 0px 0px;
+	padding: 0px;
+}
+a:link, body_alink
+{
+	color: #054b1d;
+	text-decoration: underline;
+}
+a:visited, body_avisited
+{
+	color: #054b1d;
+	text-decoration: underline;
+}
+a:hover, a:active, body_ahover
+{
+	color: #054b1d;
+	text-decoration: none;
+}
+.page
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+.tcat
+{
+	background: #054b1d;
+	color: #FFFFFF;
+	text-indent:6px;line-height:22px;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #D1CCCC;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #D1CCCC;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #CACDCE url(images/gradients/gradient_thead.gif) repeat-x top left;
+	color: #4D4747;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #054b1d;
+	text-decoration: none;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #054b1d;
+	text-decoration: none;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #054b1d;
+	text-decoration: underline;
+}
+.tfoot
+{
+	background: #054b1d;
+	color: #FFFFFF;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.alt1, .alt1Active
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.alt2, .alt2Active
+{
+	background: #E0E0E0;
+	color: #000000;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #f5f5f5;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #666686;
+}
+.navbar
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #054b1d;
+	color: #EAEAEA;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #DBDBDB url(images/gradients/gradient_panel.gif) repeat-x top left;
+	color: #000000;
+	padding: 10px;
+	border: 2px outset;
+}
+.panelsurround
+{
+	background: #DBDBDB url(images/gradients/gradient_panelsurround.gif) repeat-x top left;
+	color: #000000;
+}
+legend
+{
+	color: #22229C;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #054b1d;
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #D1CCCC;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #D1CCCC;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+.vbmenu_option
+{
+	background: #CACACA;
+	color: #000000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #000000;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #000000;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #054b1d;
+	color: #FFFFFF;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+.navi a:link {color : #054b1d; text-decoration : none; font-family : Verdana, Arial, Helvetica, sans-serif; font-size : 10px; font-weight : bold; } 
+.navi a:visited {color : #054b1d; text-decoration : none; font-family : Verdana, Arial, Helvetica, sans-serif; font-size : 10px; font-weight : bold; } 
+.navi a:hover {color : #054b1d; font-family : Verdana, Arial, Helvetica, sans-serif; font-size : 10px; font-weight : bold; text-decoration : underline; }
+
+#wrapper{background: #FFFFFF;border-radius: 5px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.21);margin: 15px;padding: 15px;}
+.awardusr a {
+    background: url("images/bstar.png") no-repeat scroll left 2px transparent;
+    display: block;
+    float: left;
+    line-height: 1.5em;
+    padding-left: 20px;
+    width: 200px;
+}
+ 
+#menu{height: 40px;background: #054b1d;}
+#menu ul{list-style-position:outside;list-style-type:none;padding:0;margin:1px 0 0}
+#menu ul li{background:transparent;float:left;}
+#menu ul li a{border-right: 1px solid rgba(137, 135, 127, 0.6);display:block;float:left;text-decoration:none;padding: 0px 20px;color: #D1CCCC;line-height: 40px;}
+#menu ul li a:hover{background: #5E8837;color: #FFFFFF;text-decoration:none;}
+
+
+.cf:before, .cf:after {content:"";display:table;}.cf:after {clear:both;}.cf{zoom:1; /* For IE 6/7 (trigger hasLayout) */}
+.theader{}
+.logobox{float:left;width:520px;}
+.logo{float:left;width:284px;height:89px;background: url("/images/misc/vbulletin3_logo_white.gif") no-repeat center; display:inline-block;text-indent: -999px;overflow: hidden}
+.sep{;float:left;display:inline-block;margin: 30px 12px 0;width:1px; height:45px;background: url("/images/misc/t-sep.gif") repeat-y center center}
+.date-time{float:left;display:block;width: 205px;padding-top: 35px;color:#666686;line-height:1.5em;}
+
+.tlinks{float:right;}
+.fbook{padding:10px 0 5px 10px;}
+.navi ul{list-style-position:outside;list-style-type:none;padding:0;padding:0;margin:0}
+.navi li{display: inline-block;padding:20px 0 0;text-align:center;}
+.navi ul li a{border-right: 1px solid #eaeaea;display:block;padding:0 10px}
+.navi ul li:last-child a{border: none}
+#ihome{background:url(/images/misc/ico-home.gif)no-repeat center top}
+#ibguide{background:url(/images/misc/ico-guide.gif)no-repeat center top}
+#irules{background:url(/images/misc/ico-rules.gif)no-repeat center top}
+#isyllabus{background:url(/images/misc/ico-pastp.gif)no-repeat center top}
+#ippapers{background:url(/images/misc/ico-syllabus.gif)no-repeat center top}
+#icsps{background:url(/images/misc/ico-csp.gif)no-repeat center top}
+#icontact{background:url(/images/misc/ico-contact.gif)no-repeat center top}
