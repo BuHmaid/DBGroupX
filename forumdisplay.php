@@ -61,7 +61,7 @@ else
     echo '<br />';
     //display a table of results
     echo '<table align="center" cellspacing = "2" cellpadding = "4" width="75%">';
-    echo '<tr bgcolor="#87CEEB">
+    echo '<tr bgcolor="#39527e">
           <td><b>View</b></td>
           
           <td><b><a href="view_users.php?sort=fn">Name</a></b></td>

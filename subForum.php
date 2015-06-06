@@ -35,7 +35,7 @@ else
     echo '<br />';
     //display a table of results
     echo '<table align="center" cellspacing = "2" cellpadding = "4" width="75%">';
-    echo '<tr bgcolor="#87CEEB">
+    echo '<tr bgcolor="#39527e">
 
           <td><b>Topics</b></td>
           <td><b>Author</b></td>

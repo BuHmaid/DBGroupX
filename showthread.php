@@ -27,18 +27,21 @@ else
      exit();
 }
 
-echo '<h2>Show Thread</h2>';
+
 //echo '<h3>SESSION ID IS '.$_SESSION["Id"].'</h3>';
               $q = "select content from post where threadId = $id";
 //$dbc=mysqli_connect('studev2','201100013','polytechnic','201100013');
        //      $dbc = mysqli_connect('localhost','root','','201100013');
             $r = mysqli_query($dbc, $q);
-
+            $qs = "select subject from thread where threadId = $id";
+            $rs = mysqli_query($dbc, $qs);
+            $srow = mysqli_fetch_array($rs);
+echo '<h2>'.$srow[0].'</h2>';
             while($row = mysqli_fetch_array($r)){
                 echo '<p>'.$row[0].'</p>'; 
            }
            //action="showthread.php?id='.$id.'
-echo '<h1>Reply to thread</h1>
+echo '
     <form  method="post">
     
              <p><b>Reply:</p></b>
